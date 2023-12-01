@@ -99,7 +99,7 @@ size_flags_horizontal = 4
 size_flags_vertical = 4
 columns = 4
 
-[node name="clr" type="Button" parent="Panel/ColorRect/compContainer/allbutton/topbutton"]
+[node name="clr" type="Button" parent="Panel/ColorRect/compContainer/allbutton/topbutton" groups=["calc_button"]]
 custom_minimum_size = Vector2(75, 75)
 layout_mode = 2
 theme_override_font_sizes/font_size = 60
@@ -108,11 +108,12 @@ theme_override_styles/focus = SubResource("StyleBoxEmpty_bxbp6")
 toggle_mode = true
 text = "C"
 
-[node name="negate" type="Button" parent="Panel/ColorRect/compContainer/allbutton/topbutton"]
+[node name="negate" type="Button" parent="Panel/ColorRect/compContainer/allbutton/topbutton" groups=["calc_button"]]
 custom_minimum_size = Vector2(75, 75)
 layout_mode = 2
 theme_override_styles/normal = SubResource("StyleBoxFlat_hobd8")
 theme_override_styles/focus = SubResource("StyleBoxEmpty_bxbp6")
+toggle_mode = true
 
 [node name="TextureRect" type="TextureRect" parent="Panel/ColorRect/compContainer/allbutton/topbutton/negate"]
 layout_mode = 1
@@ -129,11 +130,12 @@ grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("1_l63bo")
 
-[node name="del" type="Button" parent="Panel/ColorRect/compContainer/allbutton/topbutton"]
+[node name="del" type="Button" parent="Panel/ColorRect/compContainer/allbutton/topbutton" groups=["calc_button"]]
 custom_minimum_size = Vector2(75, 75)
 layout_mode = 2
 theme_override_styles/normal = SubResource("StyleBoxFlat_hobd8")
 theme_override_styles/focus = SubResource("StyleBoxEmpty_bxbp6")
+toggle_mode = true
 
 [node name="TextureRect" type="TextureRect" parent="Panel/ColorRect/compContainer/allbutton/topbutton/del"]
 layout_mode = 1
@@ -150,7 +152,7 @@ grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("2_nh1gy")
 
-[node name="mul" type="Button" parent="Panel/ColorRect/compContainer/allbutton/topbutton"]
+[node name="mul" type="Button" parent="Panel/ColorRect/compContainer/allbutton/topbutton" groups=["calc_button"]]
 custom_minimum_size = Vector2(75, 75)
 layout_mode = 2
 theme_override_styles/normal = SubResource("StyleBoxFlat_hobd8")
@@ -172,31 +174,34 @@ grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("3_s30ea")
 
-[node name="7button" type="Button" parent="Panel/ColorRect/compContainer/allbutton/topbutton"]
+[node name="7button" type="Button" parent="Panel/ColorRect/compContainer/allbutton/topbutton" groups=["calc_button"]]
 custom_minimum_size = Vector2(75, 75)
 layout_mode = 2
 theme_override_font_sizes/font_size = 60
 theme_override_styles/normal = SubResource("StyleBoxFlat_gadvl")
 theme_override_styles/focus = SubResource("StyleBoxEmpty_bxbp6")
+toggle_mode = true
 text = "7"
 
-[node name="8button" type="Button" parent="Panel/ColorRect/compContainer/allbutton/topbutton"]
+[node name="8button" type="Button" parent="Panel/ColorRect/compContainer/allbutton/topbutton" groups=["calc_button"]]
 custom_minimum_size = Vector2(75, 75)
 layout_mode = 2
 theme_override_font_sizes/font_size = 60
 theme_override_styles/normal = SubResource("StyleBoxFlat_gadvl")
 theme_override_styles/focus = SubResource("StyleBoxEmpty_bxbp6")
+toggle_mode = true
 text = "8"
 
-[node name="9button" type="Button" parent="Panel/ColorRect/compContainer/allbutton/topbutton"]
+[node name="9button" type="Button" parent="Panel/ColorRect/compContainer/allbutton/topbutton" groups=["calc_button"]]
 custom_minimum_size = Vector2(75, 75)
 layout_mode = 2
 theme_override_font_sizes/font_size = 60
 theme_override_styles/normal = SubResource("StyleBoxFlat_gadvl")
 theme_override_styles/focus = SubResource("StyleBoxEmpty_bxbp6")
+toggle_mode = true
 text = "9"
 
-[node name="div" type="Button" parent="Panel/ColorRect/compContainer/allbutton/topbutton"]
+[node name="div" type="Button" parent="Panel/ColorRect/compContainer/allbutton/topbutton" groups=["calc_button"]]
 custom_minimum_size = Vector2(75, 75)
 layout_mode = 2
 theme_override_styles/normal = SubResource("StyleBoxFlat_hobd8")
@@ -218,31 +223,34 @@ grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("4_2yayi")
 
-[node name="4button" type="Button" parent="Panel/ColorRect/compContainer/allbutton/topbutton"]
+[node name="4button" type="Button" parent="Panel/ColorRect/compContainer/allbutton/topbutton" groups=["calc_button"]]
 custom_minimum_size = Vector2(75, 75)
 layout_mode = 2
 theme_override_font_sizes/font_size = 60
 theme_override_styles/normal = SubResource("StyleBoxFlat_gadvl")
 theme_override_styles/focus = SubResource("StyleBoxEmpty_bxbp6")
+toggle_mode = true
 text = "4"
 
-[node name="5button" type="Button" parent="Panel/ColorRect/compContainer/allbutton/topbutton"]
+[node name="5button" type="Button" parent="Panel/ColorRect/compContainer/allbutton/topbutton" groups=["calc_button"]]
 custom_minimum_size = Vector2(75, 75)
 layout_mode = 2
 theme_override_font_sizes/font_size = 60
 theme_override_styles/normal = SubResource("StyleBoxFlat_gadvl")
 theme_override_styles/focus = SubResource("StyleBoxEmpty_bxbp6")
+toggle_mode = true
 text = "5"
 
-[node name="6button" type="Button" parent="Panel/ColorRect/compContainer/allbutton/topbutton"]
+[node name="6button" type="Button" parent="Panel/ColorRect/compContainer/allbutton/topbutton" groups=["calc_button"]]
 custom_minimum_size = Vector2(75, 75)
 layout_mode = 2
 theme_override_font_sizes/font_size = 60
 theme_override_styles/normal = SubResource("StyleBoxFlat_gadvl")
 theme_override_styles/focus = SubResource("StyleBoxEmpty_bxbp6")
+toggle_mode = true
 text = "6"
 
-[node name="add" type="Button" parent="Panel/ColorRect/compContainer/allbutton/topbutton"]
+[node name="add" type="Button" parent="Panel/ColorRect/compContainer/allbutton/topbutton" groups=["calc_button"]]
 custom_minimum_size = Vector2(75, 75)
 layout_mode = 2
 theme_override_styles/normal = SubResource("StyleBoxFlat_hobd8")
@@ -265,31 +273,34 @@ grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("5_5k227")
 
-[node name="1button" type="Button" parent="Panel/ColorRect/compContainer/allbutton/topbutton"]
+[node name="1button" type="Button" parent="Panel/ColorRect/compContainer/allbutton/topbutton" groups=["calc_button"]]
 custom_minimum_size = Vector2(75, 75)
 layout_mode = 2
 theme_override_font_sizes/font_size = 60
 theme_override_styles/normal = SubResource("StyleBoxFlat_gadvl")
 theme_override_styles/focus = SubResource("StyleBoxEmpty_bxbp6")
+toggle_mode = true
 text = "1"
 
-[node name="2button" type="Button" parent="Panel/ColorRect/compContainer/allbutton/topbutton"]
+[node name="2button" type="Button" parent="Panel/ColorRect/compContainer/allbutton/topbutton" groups=["calc_button"]]
 custom_minimum_size = Vector2(75, 75)
 layout_mode = 2
 theme_override_font_sizes/font_size = 60
 theme_override_styles/normal = SubResource("StyleBoxFlat_gadvl")
 theme_override_styles/focus = SubResource("StyleBoxEmpty_bxbp6")
+toggle_mode = true
 text = "2"
 
-[node name="3button" type="Button" parent="Panel/ColorRect/compContainer/allbutton/topbutton"]
+[node name="3button" type="Button" parent="Panel/ColorRect/compContainer/allbutton/topbutton" groups=["calc_button"]]
 custom_minimum_size = Vector2(75, 75)
 layout_mode = 2
 theme_override_font_sizes/font_size = 60
 theme_override_styles/normal = SubResource("StyleBoxFlat_gadvl")
 theme_override_styles/focus = SubResource("StyleBoxEmpty_bxbp6")
+toggle_mode = true
 text = "3"
 
-[node name="sub" type="Button" parent="Panel/ColorRect/compContainer/allbutton/topbutton"]
+[node name="sub" type="Button" parent="Panel/ColorRect/compContainer/allbutton/topbutton" groups=["calc_button"]]
 custom_minimum_size = Vector2(75, 75)
 layout_mode = 2
 theme_override_styles/normal = SubResource("StyleBoxFlat_hobd8")
@@ -317,15 +328,16 @@ stretch_mode = 1
 layout_mode = 2
 size_flags_horizontal = 4
 
-[node name="0button" type="Button" parent="Panel/ColorRect/compContainer/allbutton/bottombutton"]
+[node name="0button" type="Button" parent="Panel/ColorRect/compContainer/allbutton/bottombutton" groups=["calc_button"]]
 custom_minimum_size = Vector2(150, 75)
 layout_mode = 2
 theme_override_font_sizes/font_size = 60
 theme_override_styles/normal = SubResource("StyleBoxFlat_gadvl")
 theme_override_styles/focus = SubResource("StyleBoxEmpty_bxbp6")
+toggle_mode = true
 text = "0"
 
-[node name="deci" type="Button" parent="Panel/ColorRect/compContainer/allbutton/bottombutton"]
+[node name="deci" type="Button" parent="Panel/ColorRect/compContainer/allbutton/bottombutton" groups=["calc_button"]]
 custom_minimum_size = Vector2(75, 75)
 layout_mode = 2
 theme_override_font_sizes/font_size = 60

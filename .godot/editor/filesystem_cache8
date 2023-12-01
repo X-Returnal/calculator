@@ -1,8 +1,9 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1701189142
-control.tscn::PackedScene::5733902157378241149::1701105279::0::1::::<><>::
+::res://::1701448045
+control.gd::GDScript::-1::1701364486::0::1::::<>Control<>::
+control.tscn::PackedScene::5733902157378241149::1701364486::0::1::::<><>::uid://cjai5njjao8e8::::res://assets/Negate_btn.png<>res://control.gd<>uid://curj2p5cn7cad::::res://assets/Delete_btn.png<>uid://84j6y1xclhc3::::res://assets/Multiplication_btn.png<>uid://cvhh4hrh3opta::::res://assets/Division_btn.png<>uid://dq7nl5psh8qjs::::res://assets/Addition_btn.png<>uid://cou1omu1h8d55::::res://assets/Subtraction_btn.png<>uid://bhi05nxdcj8oq::::res://assets/Equal_btn.png
 icon.svg::CompressedTexture2D::7827640076409413820::1701102775::1701102829::1::::<><>::
-README.md::TextFile::-1::1701103136::0::1::::<><>::
+README.md::TextFile::-1::1701276479::0::1::::<><>::
 ::res://assets/::1701103212
 Addition_btn.png::CompressedTexture2D::8349154201757730428::1701103212::1701103212::1::::<><>::
 Delete_btn.png::CompressedTexture2D::6212308165640084251::1701103212::1701103212::1::::<><>::
