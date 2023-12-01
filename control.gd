@@ -2,15 +2,10 @@ extends Control
 
 var current_total = 0
 var err_flag = false
-var add_flag = true
-var sub_flag = false
-var mul_flag= false
-var div_flag= false
+
 # Called when the node enters the scene tree for the first time.
-func _ready():
-	for button in get_tree().get_nodes_in_group("calc_button"):
-		button.connect("pressed", _some_button_pressed.bind(button))
-	
+
+
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
@@ -41,17 +36,18 @@ func _process(_delta):
 	if $Panel/ColorRect/compContainer/allbutton/bottombutton/deci.button_pressed == true:
 		numbers = numbers * 0.01
 	
-	
+	if $Panel/ColorRect/compContainer/allbutton/topbutton/del.button_pressed == true:
+		if !err_flag:
+				if current_total > 0:
+					current_total -= 1
+				elif current_total <0:
+					current_total += 1
 	if $Panel/ColorRect/compContainer/allbutton/bottombutton/solve.button_pressed == true:
 		if err_flag:
 			$Panel/ColorRect/compContainer/DisplayContainer/MarginContainer/VBoxContainer/PrevWork.text ="E"
 			
 		else:
-			if $Panel/ColorRect/compContainer/allbutton/topbutton/del.button_pressed == true:
-				if current_total > 0:
-					current_total -= 5
-				elif current_total <0:
-					current_total += 5
+			
 			if $Panel/ColorRect/compContainer/allbutton/topbutton/add.button_pressed == true:
 					current_total+=numbers
 			if $Panel/ColorRect/compContainer/allbutton/topbutton/sub.button_pressed == true:
@@ -69,5 +65,3 @@ func _process(_delta):
 		$Panel/ColorRect/compContainer/DisplayContainer/MarginContainer/VBoxContainer/PrevWork.text =""
 		current_total = 0
 	$Panel/ColorRect/compContainer/DisplayContainer/MarginContainer/VBoxContainer/Label.text = str(current_total)
-func _some_button_pressed(button):
-	print(button.name)
