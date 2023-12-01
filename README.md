@@ -1,5 +1,5 @@
 # calculator
-a simple non functing calculator
+a simple anti functing calculator
 # "features"
 * UNIQUE ANGLED DESIGN
 * Speedy calculations
